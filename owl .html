@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+                     <!-- Owl carousel script cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+                     <!-- Owl carousel css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+</script>
+          <style>
+            img{
+                width: 250px;
+                height: 200px;
+            }
+          </style>     
+          
+          <script>
+             $(document).ready(function(){
+                $('.owl-carousel').owlCarousel({
+                 loop:true,
+                 margin:10,
+                 nav:false,
+                 dots:false,
+                 autoplay:true,
+                 autoplayTimeout:1000,
+                 responsive:{
+              0:{
+                 items:1
+                },
+            600:{
+                items:3
+                },
+           1000:{
+                items:5
+                }
+             }
+           });
+            });
+          </script>
+</head>
+<body>
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <img src="logo/td1.jpg" alt="">
+            <h1></h1>
+        </div>
+        <div class="item">
+            <img src="logo/td2.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="logo/td3.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="logo/td4.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="logo/td5.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="logo/td6.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="logo/td7.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="logo/td8.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="logo/td9.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="logo/td10.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
